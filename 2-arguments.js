@@ -1,4 +1,5 @@
 function numberOfArguments(){
+
     let arguments = process.argv.slice(2);
 
     if(arguments.length === 0){
@@ -11,4 +12,4 @@ function numberOfArguments(){
         console.log("Arguments found");
     }
 }
-
+function numberOfArguments();
