@@ -12,4 +12,4 @@ function numberOfArguments(){
         console.log("Arguments found");
     }
 }
-function numberOfArguments();
+numberOfArguments();
