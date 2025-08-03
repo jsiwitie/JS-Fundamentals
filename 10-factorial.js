@@ -10,3 +10,5 @@ function thefactorial(n) {
 console.log(thefactorial(input));
 
 }
+
+theFactorial();
