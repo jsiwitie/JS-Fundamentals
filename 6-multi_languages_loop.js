@@ -7,14 +7,16 @@ let lines = [
   "JavaScript is amazing"
 ];
 
-let result = "";
+let i = 0;
+let output = "";
 
-for (let i = 0; i < lines.length; i++) {
-  result += lines[i];
-  if (i < lines.length - 1) {
-    result += "\n";
-  }
+while (i < lines.length) {
+  output += lines[i] + "\n";
+  i++;
 }
 
-console.log(result);
+console.log(output.trim());
+
 }
+
+printThreeLines();
