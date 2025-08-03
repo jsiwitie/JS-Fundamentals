@@ -14,3 +14,4 @@ if (isNaN(theSize)) {
 }
 
 }
+sQuare();
